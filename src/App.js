@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
+      <h1>Box Builder</h1>
       <p>Create a new box using the form below</p>
       <BoxList />
     </div>

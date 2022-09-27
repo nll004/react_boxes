@@ -11,7 +11,7 @@ function BoxList(){
     }
 
     return (
-        <div className="Boxlist">
+        <>
             <div>
                 <NewBoxForm addBox={addBox} />
             </div>
@@ -24,7 +24,7 @@ function BoxList(){
                     />
                 )}
             </div>
-        </div>
+        </>
     )
 }
 
